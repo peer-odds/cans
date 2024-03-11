@@ -19,5 +19,5 @@ Clone this repository to your directory and run following command in terminal
 ```
 go run main.go
 ```
-Server should be running on port 4200.
-to access website, go to http://localhost:4200 in your browser.
+Server should be running on port 8080.
+to access website, go to http://localhost:8080 in your browser.
