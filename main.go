@@ -8,7 +8,6 @@ import (
 	"strings"
 )
 
-var res string
 
 type Todo struct {
 	Title string
