@@ -1,0 +1,39 @@
+.container {
+    margin: 25vh auto; /* Center the content */
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(222, 222, 222, 0.6);
+    width: 50%; text-align: center;
+    min-width: min-content;
+    max-width: max-content;
+  }
+  .contentbox {
+    margin: 6px;
+    justify-content: center;
+    min-height: max-content;
+    min-width: min-content; /* Edit box width size*/
+    max-width: max-content;
+    border-radius: 25px !important;
+    background-color: rgb(219, 219, 219);
+    padding: 15px;
+    opacity: 0.8;
+  }
+  .btn{
+    border: none;
+    background: none;
+    background-color: white;
+    border-radius: 10px;
+    height: 4vh;
+    padding: auto;
+    padding: 10px;
+  }
+  h1{
+    font-size: 28px;
+  }
+  h2{
+    font-size: 18px;
+  }
