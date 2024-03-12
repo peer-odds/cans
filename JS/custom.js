@@ -66,9 +66,9 @@ function typingListener() {
   } else {
     
     document.getElementById("demo").style.display = "block";
-    document.getElementById("counter").style.display = "block";
+    document.getElementById("counter").style.display = "none";
     document.getElementById("demo").innerHTML = "You wrote : " + text;
-    document.getElementById("counter").innerHTML = "Count : " + text.length;
+    // document.getElementById("counter").innerHTML = "Count : " + text.length;
   }
 }
 function typeListenerAPI() {
